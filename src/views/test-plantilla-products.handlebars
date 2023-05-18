@@ -1,0 +1,19 @@
+<div>
+  <h2>{{title}}</h2>
+  <p>{{golesBoca}}</p>
+  <p>{{hora}}</p>
+  <p>{{dolar}}</p>
+  {{#each productos}}
+    <p>
+      id:
+      {{this.id}}
+      name:
+      {{this.name}}
+      price:
+      {{this.price}}
+      createdAt:
+      {{this.createdAt}}
+    </p>
+    <hr />
+  {{/each}}
+</div>

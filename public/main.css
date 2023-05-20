@@ -1,3 +1,25 @@
-p {
-  color: #ff0000;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input {
+    font-size: 22px;
+}
+
+input:focus {
+    background-color: rgb(52, 98, 99);
+    color: white;
+    font-size: 22px;
+}
+
+input:focus::placeholder {
+    color: rgba(255, 255, 255, 0.442);
+}
+
+.copy {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
 }

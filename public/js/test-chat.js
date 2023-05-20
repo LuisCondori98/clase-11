@@ -37,7 +37,7 @@ socket.on("listado_msgs", (msgs) => {
   console.log(msgs)
   const box = document.getElementById("div-msgs")
   let format = "";
-  msgs.forEach(msg => format = format + "<p> user: " + msg.user + ": " + msg.msg + "</p>");
+  msgs.forEach(msg => format = format + "<p style='color: white'> user: " + msg.user + ": " + msg.msg + "</p>");
   box.innerHTML = format
 })
 

@@ -19,6 +19,11 @@ async function main() {
     },
   });
   userIngresado = nombre;
+
+
+const user = document.getElementById("user")
+
+user.innerHTML = '<img style="height: 40px" src="/user.png" />' + "Hola " + nombre
 }
 
 main();
